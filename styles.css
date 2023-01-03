@@ -1,0 +1,114 @@
+html{
+    font-size: 18px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header*/
+header{
+    padding: 1rem 0;
+    background-color: antiquewhite;
+}
+.title{
+    text-transform: capitalize;
+    text-align: center;
+    color: brown;
+    padding-bottom: 0.5rem;
+}
+
+.nav {
+    padding: 0 2rem ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.nav a:hover{
+    color: red;
+}
+/*intro*/
+/**/
+#intro{
+    padding: 1rem 2rem;
+    background-color: aliceblue;
+}
+
+.intro-img{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+@media only screen and (max-width:600px){
+    .intro-img{
+        width: 80%;
+    }
+}
+
+.location{
+    padding-top: 1rem;
+}
+.location h6{
+    color: red;
+}
+/*services*/
+#services {
+    padding: 2rem 2rem;
+    background-color: azure;
+}
+
+.service-title{
+    text-align: center;
+    color: green;
+    word-spacing: 0.3rem;
+}
+
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:stretch;
+    justify-content: center;
+}
+.service-item{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.service-img-box{
+    display: inline-block;
+}
+.service-img{
+    width: 15rem;
+}
+.service-description{
+    width: 5rem;
+}
+.service-name{
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.service-book {
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid green;
+    border-radius: 15%;
+}
+.service-book:hover{
+    color: red;
+    font-size: x-large;
+}
+.service-book:active{
+    color:chartreuse;
+}

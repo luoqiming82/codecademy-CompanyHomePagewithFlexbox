@@ -1,0 +1,7 @@
+1. homepage of 'south canning clinc'
+2. elements:
+    1. header (title logo nav)
+    2. introduction (text description, img of the clinc)
+    3. services with imgs and txt and book button (vaccination, general practiton, body examination, x-ray, ultrosound, dentist,day surgery)
+    4. team members
+    5. footer
