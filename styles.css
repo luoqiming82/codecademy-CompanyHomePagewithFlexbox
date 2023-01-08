@@ -112,3 +112,53 @@ header{
 .service-book:active{
     color:chartreuse;
 }
+
+/*experts*/
+#experts{
+    padding: 2rem 4rem;
+    background-color:cornsilk;
+}
+
+.experts-heading{
+    text-align: center;
+    color: green;
+    word-spacing: 0.3rem;
+}
+
+.experts-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.experts-item{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+.experts-img{
+    height: 15rem;
+}
+
+.experts-txt{
+    width: 8rem;
+}
+
+.experts-name{
+    padding-bottom: 1rem;
+}
+
+/* footer */
+#footer{
+    padding: 2rem;
+    text-align: center;
+    background-color: antiquewhite;
+    text-transform: capitalize;
+}
+
+.location,.phone,.email{
+    padding: 0.5rem;
+    display: inline-block;
+
+}

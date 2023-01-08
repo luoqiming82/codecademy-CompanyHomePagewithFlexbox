@@ -7,3 +7,5 @@ codecademy challenge project: Company Home Page with Flexbox
             A mission statement or brief description of the company.
             A list or set of images and titles representing the product or products of the company.
             A section describing some of the company’s employees or teammates.  
+
+### all images were downloaded from https://unsplash.com/, the authors of these images own the copyrights of these images.
