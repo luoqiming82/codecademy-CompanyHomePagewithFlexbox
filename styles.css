@@ -128,7 +128,8 @@ header{
 .experts-flexbox{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 
 .experts-item{
@@ -138,7 +139,7 @@ header{
     gap: 1rem;
 }
 .experts-img{
-    height: 15rem;
+    width: 15rem;
 }
 
 .experts-txt{
